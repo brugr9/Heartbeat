@@ -4,4 +4,7 @@ POC connecting MQTT to UE5
 
 Author: Roland Bruggmann
 
-https://github.com/brugr9/UEPluginIntegrationTool/discussions/9
+See:
+
+* https://github.com/brugr9/UEPluginIntegrationTool/discussions/9
+* https://github.com/brugr9/UEPluginIntegrationTool/discussions/10
