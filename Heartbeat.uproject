@@ -12,14 +12,6 @@
 			]
 		},
 		{
-			"Name": "Omniverse",
-			"Enabled": false
-		},
-		{
-			"Name": "MDL",
-			"Enabled": false
-		},
-		{
 			"Name": "IntegrationTool",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/9ebbf829543144efaa7e6dc59f2a4ecb"
