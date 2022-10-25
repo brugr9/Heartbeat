@@ -4,6 +4,6 @@ authors:
 - family-names: "Bruggmann"
   given-names: "Roland"
 title: "Unreal&reg; Engine Project 'Heartbeat'"
-version: 1.0.0
+version: v1.0.0
 date-released: 2022-10-25
 url: "https://github.com/brugr9/heartbeat"
