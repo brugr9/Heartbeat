@@ -71,21 +71,19 @@ The following shows the setup in reverse order of the data flow: Unreal Engine, 
 
 ## 2. Unreal Engine
 
-### 2.1. Install Plugin
+That's how this project was created. It is assumed that UE Plugin "Integration Tool" was purchased or installed respectively.
 
-1. Purchase UE Plugin "Integration Tool"
-2. Open a new UE Project named, e.g., "Heartbeat"
-3. Activate Plugin "Integration Tool"
-4. Restart Project "Heartbeat"
+### 2.1. Install Plugin
 
 ![ScreenshotPlugin](Doc/ScreenshotPlugin.jpg)
 *Fig. 2.1.: Unreal Engine Editor with Plugin "Integration Tool"*
 
 ### 2.2. NNG Subscription
 
-That's how the map `Map_PSL_Demo` and the actor `BP_PSL_Demo` were created:
-
-1. From `Engine > Plugins > Integration Tool Content > Demo > Blueprints` copy `BP_CubeGreen` to the project's Content folder, rename the Blueprint to `BP_PSL_Demo` and `Edit ...` the same:
+1. Open a new UE Project named, e.g., "Heartbeat"
+2. Activate Plugin "Integration Tool"
+3. Restart Project "Heartbeat"
+4. From `Engine > Plugins > Integration Tool Content > Demo > Blueprints` copy `BP_CubeGreen` to the project's Content folder, rename the Blueprint to `BP_PSL_Demo` and `Edit ...` the same:
    * 1. Change Actor-Component `Cube > Materials > Element 0` to `WidgetMaterial_X`
    * 2. Change Actor-Component `TextRender > Text > Text Render Color` to red
    * 3. Delete Actor-Component `Subscriber_C` and its related nodes in the `Event Graph`
@@ -94,7 +92,7 @@ That's how the map `Map_PSL_Demo` and the actor `BP_PSL_Demo` were created:
 ![NNGSubscription-BP_PSL_Demo](Doc/UEProjectHeartbeat-NNGSubscription-BP_PSL_Demo.jpg)
 *Fig. 2.2.: BP_PSL_Demo Actor-Components and Graph Editor*
 
-2. From `Engine > Plugins > Integration Tool Content > Demo > Maps` copy Level `Map_PubSub_Demo` to the project's Content folder. Rename the Level to `Map_PSL_Demo` and `Edit ...` the same:
+3. From `Engine > Plugins > Integration Tool Content > Demo > Maps` copy Level `Map_PubSub_Demo` to the project's Content folder. Rename the Level to `Map_PSL_Demo` and `Edit ...` the same:
    * 1. In the Level Blueprint ...
      * 1. Delete Variable `PUB-Socket` and its related nodes in the `Event Graph`
      * 2. OnOpen (SUB-Socket): Replace function node `Connect` with function node `Bind`
