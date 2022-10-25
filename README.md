@@ -81,6 +81,8 @@ The following shows the setup in reverse order of the data flow: Unreal Engine, 
 
 ### 2.2. NNG Subscription
 
+That's how the map `Map_PSL_Demo` and the actor `BP_PSL_Demo` were created:
+
 1. From `Engine > Plugins > Integration Tool Content > Demo > Blueprints` copy `BP_CubeGreen` to the project's Content folder, rename the Blueprint to `BP_PSL_Demo` and `Edit ...` the same:
    * 1. Change Actor-Component `Cube > Materials > Element 0` to `WidgetMaterial_X`
    * 2. Change Actor-Component `TextRender > Text > Text Render Color` to red
