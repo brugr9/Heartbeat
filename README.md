@@ -320,11 +320,11 @@ To acknowledge this work, please cite
 ```bibtex
 @software{Bruggmann_Unreal_Engine_Project_2022,
   author = {Bruggmann, Roland},
+  year = {2022},
   month = {10},
   title = {{Unreal Engine Project 'Heartbeat'}},
-  url = {https://github.com/brugr9/heartbeat},
   version = {1.0.0},
-  year = {2022}
+  url = {https://github.com/brugr9/heartbeat}
 }
 ```
 
