@@ -215,7 +215,7 @@ adb reverse tcp:1883 tcp:1883
    * 1. Activate Bluetooth
    * 2. Activate Location Service
    * 3. Open "Polar Sensor Logger" App
-     * 1. Under `SDK data select`: Check `ACC` solely[^1]
+     * 1. Under `SDK data select`: Check `ACC` solely
      * 2. Under `Settings`: Check `MQTT` solely, in the pop-up configure `MQTT broker address` with IP `127.0.0.1`, hit `OK`
      * 3. Hit `Seek Sensor`, select listed sensor `Polar H10 12345678` (ID will differ), hit `OK`
      * 4. In the pop-up select logging ACC data with a sampling rate $25 Hz$ (default), hit `OK`
