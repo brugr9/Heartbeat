@@ -311,7 +311,7 @@ TODO: GIF
 
 ## D. Citation
 
-To acknowledge Unreal&reg; Engine Project "Heartbeat", please cite
+To acknowledge this work, please cite
 
 > Bruggmann, R. (2022). Unreal&reg; Engine Project "Heartbeat". GitHub; accessed [Year Month Day]. URL: [https://github.com/brugr9/Heartbeat](https://github.com/brugr9/Heartbeat).
 
@@ -322,7 +322,6 @@ To acknowledge Unreal&reg; Engine Project "Heartbeat", please cite
   month = {10}
   title = {Unreal Engine Project "Heartbeat"},
   url = {https://github.com/brugr9/Heartbeat},
-  version={v1.0.0, UE 5.0},
 }
 ```
 
