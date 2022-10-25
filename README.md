@@ -323,7 +323,7 @@ To acknowledge this work, please cite
   year = {2022},
   month = {10},
   title = {{Unreal Engine Project 'Heartbeat'}},
-  version = {1.0.0},
+  version = {v1.0.0},
   url = {https://github.com/brugr9/heartbeat}
 }
 ```
