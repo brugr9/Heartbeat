@@ -228,7 +228,7 @@ adb reverse tcp:1883 tcp:1883
 
 Use Wireshark&reg; to monitor PSL for sending its messages over port 1883 and NanoMQ for forwarding the messages to port 5555 (see also *Abhinaya Balaji: Dissecting MQTT using Wireshark*. In: Blog Post, July 6, 2017, Catchpoint Systems, Inc. URL: [https://www.catchpoint.com/blog/wireshark-mqtt](https://www.catchpoint.com/blog/wireshark-mqtt)).
 
-*Listing 5.1.: Wireshar Filter TCP Port 1883*
+*Listing 5.1.: Wireshark Filter TCP Port 1883*
 ```
 tcp.port == 1883
 ```
@@ -238,7 +238,7 @@ TODO: PrintScreens
 ![Screenshot-Wireshark-1883-2](Doc/Screenshot-Wireshark-1883-2.jpg)
 *Fig. 5.1.: Wireshark Dissecting Port 1883*
 
-*Listing 5.2.: Wireshar Filter TCP Port 5555*
+*Listing 5.2.: Wireshark Filter TCP Port 5555*
 ```
 tcp.port == 5555
 ```
@@ -248,7 +248,7 @@ TODO: PrintScreens
 ![Screenshot-Wireshark-5555-2](Doc/Screenshot-Wireshark-5555-2.jpg)
 *Fig. 5.2.: Wireshark Dissecting Port 5555*
 
-*Listing 5.3.: Wireshar Filter TCP Ports 1883 and 5555*
+*Listing 5.3.: Wireshark Filter TCP Ports 1883 and 5555*
 ```
 tcp.port in {1883 5555}
 ```
