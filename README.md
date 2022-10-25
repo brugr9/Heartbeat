@@ -6,7 +6,7 @@
 
 ---
 
-![FeaturedImage Heartbeat](Heartbeat.png "FeaturedImage Heartbeat")
+![UEProjectHeartbeat-EpicGamesLauncher](Doc/UEProjectHeartbeat-EpicGamesLauncher.jpg "UEProjectHeartbeat-EpicGamesLauncher")
 
 Proof of Concept for Receiving MQTT Data using UE Plugin "Integration Tool"
 
@@ -78,7 +78,7 @@ The following shows the setup in reverse order of the data flow: Unreal Engine, 
 3. Activate Plugin "Integration Tool"
 4. Restart Project "Heartbeat"
 
-![ScreenshotPlugin](https://user-images.githubusercontent.com/1733987/183462214-39703236-7147-4c56-bdab-faaaad848877.jpg)
+![ScreenshotPlugin](Doc/ScreenshotPlugin.jpg)
 *Fig. 2.1.: Unreal Engine Editor with Plugin "Integration Tool"*
 
 ### 2.2. NNG Subscription
@@ -91,7 +91,7 @@ That's how the map `Map_PSL_Demo` and the actor `BP_PSL_Demo` were created:
    * 3. Delete Actor-Component `Subscriber_C` and its related nodes in the `Event Graph`
    * 4. Rename Actor-Component `Subscriber_Y` to `Subscriber`, set variable "Topic" to `psl` and ensure to have "Starts With" checked
 
-![NNGSubscription-BP_PSL_Demo](https://user-images.githubusercontent.com/1733987/184128474-6b491449-3991-4938-8fb5-a0aff018bb27.jpg)
+![NNGSubscription-BP_PSL_Demo](Doc/UEProjectHeartbeat-NNGSubscription-BP_PSL_Demo.jpg)
 *Fig. 2.2.: BP_PSL_Demo Actor-Components and Graph Editor*
 
 2. From `Engine > Plugins > Integration Tool Content > Demo > Maps` copy Level `Map_PubSub_Demo` to the project's Content folder. Rename the Level to `Map_PSL_Demo` and `Edit ...` the same:
@@ -106,10 +106,10 @@ That's how the map `Map_PSL_Demo` and the actor `BP_PSL_Demo` were created:
 
 Reminder: The NNG SUB-Socket Actor instance `SubSocketActor1` transport is set to `tcp://127.0.0.1:5555` (default values).
 
-![UEProjectHeartbeat-NNGSubscription-Map_PSL_Demo_-_LevelBP](https://user-images.githubusercontent.com/1733987/190147063-b392f2a6-0bac-4eb1-8776-949f05b945bd.jpg)
+![UEProjectHeartbeat-NNGSubscription-Map_PSL_Demo_-_LevelBP](Doc/UEProjectHeartbeat-NNGSubscription-Map_PSL_Demo_-_LevelBP.jpg)
 *Fig. 2.3.: Map_PSL_Demo Level Blueprint*
 
-![NNGSubscription-Map_PSL_Demo](https://user-images.githubusercontent.com/1733987/184128515-2d5a377e-3c6d-45e7-9245-ff8b9d17acef.jpg)
+![NNGSubscription-Map_PSL_Demo](Doc/UEProjectHeartbeat-NNGSubscription-Map_PSL_Demo.jpg)
 *Fig. 2.4.: Map_PSL_Demo Outliner*
 
 <div style='page-break-after: always'></div>
@@ -148,7 +148,7 @@ docker run -d --name nanomq -p 1883:1883 -p 5555:5555 emqx/nanomq:0.12.2
 
 Open the same in a terminal, e.g., by using the "Open in Terminal" button in Docker Desktop:
 
-![NanoMQDocker Container](https://user-images.githubusercontent.com/1733987/189970626-4b1d9df6-e8b4-476d-99d6-0fdcf33ef122.jpg)
+![NanoMQDocker Container](Doc/NanoMQDockerContainer.jpg)
 *Fig. 3.1.: Docker Desktop with NanoMQ Container and Button "Open in Terminal"*
 
 In the terminal type `nanomq_cli` and check for having `nngproxy` available:
@@ -220,7 +220,7 @@ adb reverse tcp:1883 tcp:1883
      * 3. Hit `Seek Sensor`, select listed sensor `Polar H10 12345678` (ID will differ), hit `OK`
      * 4. In the pop-up select logging ACC data with a sampling rate $25 Hz$ (default), hit `OK`
 
-![Screenshot_20220808-190056](https://user-images.githubusercontent.com/1733987/183487653-f9ea33fc-2299-489d-854f-22f751cfa2df.png) | ![Screenshot_20220808-190046](https://user-images.githubusercontent.com/1733987/183487651-5ff9136c-0cc4-4938-86b6-3bd400f2781d.png) | ![Screenshot_20220808-191014](https://user-images.githubusercontent.com/1733987/183488379-4e3fe7b6-465e-4126-8102-7804c34bd58e.png) | ![Screenshot_20220811-135008](https://user-images.githubusercontent.com/1733987/184129307-3c32ab79-c81d-4498-81c5-eb7d5217d8a3.png) | ![Screenshot_20220906-181704](https://user-images.githubusercontent.com/1733987/188705729-ffe28e57-070a-4102-85b3-4fdaa3814627.png)
+![PSL-MainTab](Doc/PSL-01-MainTab.png) | ![PSL-DialogueMQTTSettings](Doc/PSL-02-DialogueMQTTSettings.png) | ![/PSL-DialogueSeekSensor](Doc/PSL-03-DialogueSeekSensor.png) | ![PSL-DialogueACCSettings](Doc/PSL-04-DialogueACCSettings.png) | ![PSL-StatusConnected](Doc/PSL-05-StatusConnected.png)
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 *Fig. 4.1.: PSL, Main Tab* | *Fig. 4.2.: PSL, Dialogue "MQTT Settings"* | *Fig. 4.3.: PSL, Dialogue "Seek Sensor"* | *Fig. 4.4.: PSL, Dialogue "ACC Settings"* | *Fig. 4.5.: PSL, Status Connected*
 
@@ -236,8 +236,8 @@ tcp.port == 1883
 ```
 
 TODO: PrintScreens
-![Screenshot-Wireshark-1883-1]()
-![Screenshot-Wireshark-1883-2]()
+![Screenshot-Wireshark-1883-1](Doc/Screenshot-Wireshark-1883-1.jpg)
+![Screenshot-Wireshark-1883-2](Doc/Screenshot-Wireshark-1883-2.jpg)
 *Fig. 5.1.: Wireshark Dissecting Port 1883*
 
 *Listing 5.2.: Wireshar Filter TCP Port 5555*
@@ -246,8 +246,8 @@ tcp.port == 5555
 ```
 
 TODO: PrintScreens
-![Screenshot-Wireshark-5555-1]()
-![Screenshot-Wireshark-5555-2]()
+![Screenshot-Wireshark-5555-1](Doc/Screenshot-Wireshark-5555-1.jpg)
+![Screenshot-Wireshark-5555-2](Doc/Screenshot-Wireshark-5555-2.jpg)
 *Fig. 5.2.: Wireshark Dissecting Port 5555*
 
 *Listing 5.3.: Wireshar Filter TCP Ports 1883 and 5555*
