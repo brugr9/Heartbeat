@@ -6,6 +6,8 @@
 
 ---
 
+![FeaturedImage Heartbeat](Heartbeat.png "FeaturedImage Heartbeat")
+
 Proof of Concept for Receiving MQTT Data using UE Plugin "Integration Tool"
 
 ## Description
