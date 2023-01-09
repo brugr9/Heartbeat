@@ -38,10 +38,12 @@ An Unreal Engine project as Proof of Concept for receiving MQTT data from Polar&
   * [4.2. Setup Polar Sensor Logger](#42-setup-polar-sensor-logger)
 * [5. Monitor Messages](#5-monitor-messages)
 * [6. Data Visualisation](#6-data-visualisation)
-* [A. Attribution](#a-attribution)
-* [B. References](#b-references)
-* [C. Readings](#c-readings)
-* [D. Citation](#d-citation)
+* [Appendix](#appendix)
+  * [A. Attribution](#a-attribution)
+  * [B. References](#b-references)
+  * [C. Readings](#c-readings)
+  * [D. Citation](#d-citation)
+  * [E. Disclaimer](#e-disclaimer)
 
 <!-- End Document Outline -->
 
@@ -286,7 +288,9 @@ TODO: GIF
 
 <div style='page-break-after: always'></div>
 
-## A. Attribution
+## Appendix
+
+### A. Attribution
 
 * The word mark Unreal and its logo are Epic Games, Inc. trademarks or registered trademarks in the US and elsewhere (cp. Branding Guidelines and Trademark Usage, URL: [https://www.unrealengine.com/en-US/branding](https://www.unrealengine.com/en-US/branding)).
 * The word marks nanomsg and NNG and its logos are trademarks of Garrett D'Amore, used with permission (cp. Trademark Policy, URL: [https://nanomsg.org/trademarks.html](https://nanomsg.org/trademarks.html)).
@@ -298,7 +302,7 @@ TODO: GIF
 * PowerShell and Windows are registered trademarks of Microsoft Corporation.
 * Wireshark and the "fin" logo are registered trademarks of the Wireshark Foundation (cp. Legal Information,  URL: [https://www.wireshark.org/about.html](https://www.wireshark.org/about.html)).
 
-## B. References
+### B. References
 
 * *Unreal Engine Plugin: Integration Tool* by Roland Bruggmann aka brugr9 on Unreal Marketplace: [https://www.unrealengine.com/marketplace/en-US/product/integration-tool](https://www.unrealengine.com/marketplace/en-US/product/integration-tool)
 * *NanoMQ* MQTT Broker by EMQ: [https://nanomq.io/](https://nanomq.io/)
@@ -309,11 +313,11 @@ TODO: GIF
 * OASIS Message Queuing Telemetry Transport (MQTT) TC: [https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt)
 * *Wireshark*, Display Filter Reference: MQ Telemetry Transport Protocol: [https://www.wireshark.org/docs/dfref/m/mqtt.html](https://www.wireshark.org/docs/dfref/m/mqtt.html)
 
-## C. Readings
+### C. Readings
 
 * Ch&#281;&cacute;, A.; Olczak, D.; Fernandes, T. and Ferreira, H. (2015). **Physiological Computing Gaming - Use of Electrocardiogram as an Input for Video Gaming**. In Proceedings of the 2nd International Conference on Physiological Computing Systems - PhyCS, ISBN 978-989-758-085-7; ISSN 2184-321X, pages 157-163. DOI: [10.5220/0005244401570163](http://dx.doi.org/10.5220/0005244401570163)
 
-## D. Citation
+### D. Citation
 
 To acknowledge this work, please cite
 
@@ -329,6 +333,10 @@ To acknowledge this work, please cite
   url = {https://github.com/brugr9/heartbeat}
 }
 ```
+
+### E. Disclaimer
+
+This documentation has **not been reviewed or approved** by the *Food and Drug Administration FDA* or by any other agency. It is the users responsibility to ensure compliance with applicable rules and regulations&mdash;be it in the US or elsewhere.
 
 ---
 <!-- Footer -->
