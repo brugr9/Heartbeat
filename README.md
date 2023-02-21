@@ -6,6 +6,8 @@
 
 ---
 
+**Deprecation Notice**: This project has a new variant&mdash;not using NNG&trade; but MQTT solely&mdash;to be found at: [brugr9/Heartbeat51](https://github.com/brugr9/Heartbeat51)
+
 ![UEProjectHeartbeat-EpicGamesLauncher](Doc/UEProjectHeartbeat-EpicGamesLauncher.jpg "UEProjectHeartbeat-EpicGamesLauncher")
 
 Unreal Engine Project: Heart Rate Monitoring Integration
