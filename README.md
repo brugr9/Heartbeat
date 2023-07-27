@@ -19,7 +19,7 @@ Unreal Engine Project: Heart Rate Monitoring Integration
 An Unreal Engine project as Proof of Concept for receiving MQTT data from Polar&reg; H10 Heart Rate Monitor using UE Plugin "Integration Tool".
 
 * Index Terms: Sports Performance, Physiological Measuring, Heart Rate HR, Electrocardiogram ECG, Accelerometer ACC, Integration, Messaging, Machine-to-Machine M2M, Internet of Things IoT
-* Technology: Polar&reg; H10 HR Sensor with Chest Strap, Bluetooth&reg;, Polar Sensor Logger PSL, MQTT, NanoMQ&trade;, NNG&trade;, Unreal&reg; Engine
+* Technology: Polar&reg; H10 HR Sensor with Chest Strap, Bluetooth&reg;, Polar Sensor Logger PSL, MQTT, Docker, NanoMQ&trade;, NNG&trade;, Unreal&reg; Engine
 
 ---
 
